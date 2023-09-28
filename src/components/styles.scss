@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    @extend .flex;
+    align-items: center;
+}
+
+.justify-center {
+    @extend .flex;
+    justify-content: center;
+}
+
+.flex-column {
+    @extend .flex;
+    flex-direction: column;
+}
+
+.MuiFormHelperText-root {
+    min-height: 18px;
+    margin-left: 0;
+}
+
+.Mui-error {
+    .MuiOutlinedInput-notchedOutline {
+        border-color: rgba(145, 158, 171, 0.32) !important; 
+    }
+}
